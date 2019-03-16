@@ -11,6 +11,9 @@ attr_accessor :word
   end
   
   def match(array)
+    
+    array.each do |word|
+      
   
   end
   
