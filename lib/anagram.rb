@@ -9,9 +9,8 @@ attr_accessor :word
   end
   
   def match(array)
-    array.collect do |anagram|
-      if anagram.split('').sort == @word.split('').sort
-        anagram
+    array.select do |anagram|
+      anagram.split('').sort == @word.split('').sort
       end 
     end
   
