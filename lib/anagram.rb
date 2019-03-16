@@ -12,8 +12,9 @@ attr_accessor :word
   
   def match(array)
     
-    array.each do |word|
-      
+    array.each do |anagram|
+      anagram.split
+    end
   
   end
   
