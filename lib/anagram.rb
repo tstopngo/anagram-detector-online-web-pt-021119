@@ -11,8 +11,7 @@ attr_accessor :word
   def match(array)
     array.select do |anagram|
       anagram.split('').sort == @word.split('').sort
-  end 
-    
+    end 
   end
   
   
