@@ -13,7 +13,10 @@ attr_accessor :word
   def match(array)
     
     array.collect do |anagram|
-      anagram.split.sort <=> @word.split.sort
+      if anagram.split.sort == @word.split.sort
+        anagram
+      end 
+        
     end
   
   end
