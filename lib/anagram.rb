@@ -10,6 +10,7 @@ attr_accessor :word
   
   end
   
+  def match
   
   
 end
